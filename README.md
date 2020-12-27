@@ -1,6 +1,6 @@
-# AWS Security Group Audit Tool
+# AWS Security Groups Audit Tool
 
-Reads [CloudMapper](https://github.com/duo-labs/cloudmapper) `account-data` directory and outputs a CSV file with all security groups and its associated permissions, network interfaces, addresses, CIDR blocks, vpcs and subnets.
+Reads [CloudMapper](https://github.com/duo-labs/cloudmapper) `account-data` directory and outputs a CSV file with [security groups](https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html) and its associated permissions, network interfaces, addresses, CIDR blocks, vpcs and subnets.
 
 The CSV can be imported to a spreadsheet editor like Google Docs for a convenient auditing of security groups.
 
