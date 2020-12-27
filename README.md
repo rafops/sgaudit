@@ -18,7 +18,7 @@ Run `sgaudit` specifying the path for `account-data` directory:
 ./docker_run.sh ~/cloudmapper/account-data > output.csv
 ```
 
-Here's an example of output with CloudMapper's demo account-data:
+Here's an example of output with CloudMapper's demo data:
 
 |Profile|AccountId   |Region   |IpVersion|VpcId       |VpcName|VpcCidrBlocks|VpcIsDefault|SubnetId       |SubnetName|SubnetCidrBlocks|InterfaceId |InterfaceDescription                                                              |InterfaceType|InterfaceStatus|InterfaceAddresses     |InterfacePublic|GroupId    |GroupName     |GroupDescription               |IpFlow |IpProtocol|FromPort|ToPort|Cidr      |PairGroupId|PairUserId  |PrefixListId|
 |-------|------------|---------|---------|------------|-------|-------------|------------|---------------|----------|----------------|------------|----------------------------------------------------------------------------------|-------------|---------------|-----------------------|---------------|-----------|--------------|-------------------------------|-------|----------|--------|------|----------|-----------|------------|------------|
